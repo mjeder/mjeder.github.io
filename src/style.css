@@ -272,7 +272,7 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 3em !important;
   padding-left: 50px !important;
 }
 
@@ -285,8 +285,8 @@ button:focus {
   margin: 15px !important;
   padding: 75px !important;
   opacity: 0.93 !important;
-  background-color: black;
-  border: 1.7px solid rgba(27, 73, 101, 1) !important;
+  background-color: rgba(27, 73, 101, .750);
+  border: 1.7px solid rgba(27, 73, 101, .750) !important;
   border-radius: 10px !important;
 }
 
