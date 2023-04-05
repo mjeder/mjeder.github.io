@@ -7,8 +7,8 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.375),
-    rgba(12, 10, 22, 0.475)
+    rgba(17, 16, 16, 0.275),
+    rgba(12, 10, 22, 0.375)
   );
 
   --text-color: #7FDEF5;
@@ -64,7 +64,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(42, 86, 99, 0.959);
+  background: var(--bg-color);
 }
 
 /* Handle */
@@ -90,6 +90,7 @@ button:focus {
 }
 
 .navbar {
+  background-color: var(--bg-color) !important;
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
@@ -251,10 +252,10 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 10px !important;
 }
 
-.home-section {
+.home-section-background {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/bg.jpg);
@@ -275,9 +276,18 @@ button:focus {
   padding-left: 50px !important;
 }
 
-.heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
+.heading-type {
+  text-align: left;
+  padding: 30px 30px 30px 50px !important;
+}
+
+.home-bio {
+  margin: 15px !important;
+  padding: 75px !important;
+  opacity: 0.93 !important;
+  background-color: black;
+  border: 1.7px solid rgba(27, 73, 101, 1) !important;
+  border-radius: 10px !important;
 }
 
 .main-name {
@@ -306,27 +316,19 @@ button:focus {
 }
 
 .myAvtar {
+  display: flex;
   justify-content: center !important;
-  padding-top: 9em !important;
+  align-items: center !important;
 }
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+    padding: 0;
   }
-}
-
-.home-about-section {
-  position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
   text-align: center;
 }
 
@@ -611,7 +613,7 @@ a.footer-link {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/bg.jpg) !important;
   color: white !important;
 }
 
