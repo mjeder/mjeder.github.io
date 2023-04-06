@@ -352,6 +352,7 @@ button:focus {
 
 .home-about-social-links {
   justify-content: center !important;
+  margin-top: 10px;
   padding: 0 !important;
   display: inline-block !important;
   position: relative !important;
@@ -588,8 +589,7 @@ a.footer-link {
 } p {
   font-size: 16px !important;
   margin-bottom: 0 !important;
-
-}
+} 
 
 @media (max-width: 767px) {
   .tech-icons {
@@ -608,10 +608,24 @@ a.footer-link {
   line-height: 1.6 !important;
 }
 
-.quote-card-view {
-  border: none !important;
-  color: white !important;
-  background-color: transparent !important;
+.about-me-container {
+  margin: 10px;
+  max-width: 100%;
+}
+
+.about-bio {
+  padding: 30px !important;
+  opacity: 0.93 !important;
+  background-color: rgba(27, 73, 101, .750);
+  border: 1.7px solid rgba(27, 73, 101, .750) !important;
+  border-radius: 10px !important;
+  margin-bottom: 50px !important;
+} p {
+  font-size: 24px !important;
+} @media (max-width: 767px) {
+  p {
+    font-size: 14px !important;
+  }
 }
 
 .about-activity {
