@@ -283,12 +283,16 @@ button:focus {
 }
 
 .home-bio {
-  margin: 15px !important;
   padding: 75px !important;
   opacity: 0.93 !important;
   background-color: rgba(27, 73, 101, .750);
   border: 1.7px solid rgba(27, 73, 101, .750) !important;
   border-radius: 10px !important;
+  margin-bottom: 75px !important;
+}
+
+.home-contact-section {
+  background-color:var(--bg-color) !important;
 }
 
 .main-name {
@@ -342,15 +346,17 @@ button:focus {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
+  padding-bottom: 0;
   color: white !important;
 }
 
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 15px !important;
+  padding: 0 !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
+  align-items: center !important;
 }
 
 .home-social-icons {
@@ -382,13 +388,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px var(--bg-color);
+  box-shadow: 0 0 30px var(--text-color);
 }
 
 .home-social-icons:hover {
-  color: var(--accent-color);
-  box-shadow: 0 0 5px var(--accent-color);
-  text-shadow: 0 0 2px var(--accent-color);
+  color: var(--text-color);
+  box-shadow: 0 0 10px var(--text-color);
+  text-shadow: 0 0 2px var(--text-color);
 }
 
 .social-icons {
@@ -401,11 +407,15 @@ button:focus {
   color: var(--bg-color) !important;
 }
 
+.icon-colour:hover {
+  color: var(--text-color) !important;
+}
+
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: var(--bg-color);
+  background-color: rgba(27, 73, 101, .250);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
