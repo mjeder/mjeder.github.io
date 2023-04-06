@@ -466,7 +466,7 @@ a.footer-link {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--image-gradient), url(./Assets/rain-bg.jpg) !important;
+  background-image: var(--image-gradient), url(./Assets/bubbles-bg.jpg) !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -633,7 +633,9 @@ a.footer-link {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--image-gradient), url(./Assets/brick-bg.jpg) !important;
+  background-image: var(--image-gradient), url(./Assets/paint-blue-2-bg.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white !important;
 }
 
