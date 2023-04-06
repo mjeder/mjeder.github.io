@@ -566,7 +566,9 @@ a.footer-link {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/paint-bg.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white !important;
 }
 
@@ -575,13 +577,18 @@ a.footer-link {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid var(--bg-color) !important;
+  background-color: var(--bg-color);
+  border: 3px solid var(--bg-color) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+} p {
+  font-size: 16px !important;
+  margin-bottom: 0 !important;
+
 }
 
 @media (max-width: 767px) {
