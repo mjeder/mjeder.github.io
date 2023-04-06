@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Type";
-import myImg from "../../Assets/profile-pic.jpg";
+import myImg from "../../Assets/profile-pic.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -35,44 +35,34 @@ function Home() {
             </Row>
           </Container>
         <Container>
-          <div className="home-bio">
+          <Container className="home-bio">
           <Row>
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
-                LET ME <span className="light-blue"> INTRODUCE </span> MYSELF
+                ALLOW ME TO <span className="light-blue"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I fell in love with programming and I have at least learnt
-                something, I think… 🤷‍♂️
+              I'm a Front-End developer based in <b className="light-blue"> Chicago, IL</b> experienced in building <b className="light-blue">robust client facing applications</b> with involvement throughout the entire software development lifecycle.
                 <br />
-                <br />I am fluent in classics like
+                <br />I have a history of working with
                 <i>
-                  <b className="light-blue"> C++, Javascript and Python. </b>
+                  <b className="light-blue"> Javascript, Typescript </b>
                 </i>
+                  and
+                  <i>
+                  <b className="light-blue"> Python. </b>
+                </i>But I am always looking to expand my skillset.
                 <br />
                 <br />
-                My field of Interest's are building new &nbsp;
+                My background in&nbsp;
                 <i>
-                  <b className="light-blue">Web Technologies and Products </b> and
-                  also in areas related to{" "}
+                  <b className="light-blue">hospitality operations </b>
+                  and&nbsp;
                   <b className="light-blue">
-                    Deep Learning and Natural Launguage Processing.
+                  SaaS sales&nbsp; 
                   </b>
                 </i>
-                <br />
-                <br />
-                Whenever possible, I also apply my passion for developing products
-                with <b className="light-blue">Node.js</b> and
-                <i>
-                  <b className="light-blue">
-                    {" "}
-                    Modern Javascript Library and Frameworks
-                  </b>
-                </i>
-                &nbsp; like
-                <i>
-                  <b className="light-blue"> React.js and Next.js</b>
-                </i>
+                has provided me with unique and valuable customer facing experience and perspective that I channel when solving the fun and complex problems involved with software development.
               </p>
             </Col>
             <Col md={4} className="myAvtar">
@@ -81,7 +71,7 @@ function Home() {
               </Tilt>
             </Col>
           </Row>
-          </div>
+          </Container>
           <Row>
             <Col md={12} className="home-about-social">
               <h1>FIND ME ON</h1>
