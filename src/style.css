@@ -277,9 +277,28 @@ button:focus {
   padding-left: 50px !important;
 }
 
+@media (max-width: 767px) {
+  .heading {
+    font-size: 3em !important;
+    padding-left: 0 !important;
+  }
+}
+
 .heading-type {
   text-align: left;
   padding: 30px 30px 30px 50px !important;
+}
+
+@media (max-width: 767px) {
+  .heading-type {
+    padding: 30px 30px 50px 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    text-align: left !important;
+  }
 }
 
 .home-bio {
@@ -289,6 +308,12 @@ button:focus {
   border: 1.7px solid rgba(27, 73, 101, .750) !important;
   border-radius: 10px !important;
   margin-bottom: 75px !important;
+}
+
+@media (max-width: 767px) {
+  .home-bio {
+  padding: 25px !important;
+  }
 }
 
 .home-contact-section {
@@ -328,19 +353,33 @@ button:focus {
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding: 0;
+    padding: 25px;
   }
 }
+
+@media (max-width: 767px) {
+  .img-fluid {
+    height: 50%;
+    width: 50%;
+  }
+}
+
 
 .home-about-description {
   color: white !important;
   text-align: center;
-}
+} 
 
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+} 
+
+@media (max-width: 767px) {
+  .home-about-body {
+  text-align: center;
+  }
 }
 
 .home-about-social {

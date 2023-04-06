@@ -33,7 +33,7 @@ function Home() {
         <Container className="home-bio">
           <Row>
             <Col md={8} className="home-about-description">
-              <h1 style={{ fontSize: "2.6em" }}>
+              <h1 className="home-about-title">
                     ALLOW ME TO <span className="light-blue"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
