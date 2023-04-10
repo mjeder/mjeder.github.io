@@ -25,7 +25,7 @@ function AboutCard() {
             <br />
             - Account Executive at Toast
             <br />
-            - Jr. Product Manager, Topgolf Live at Topgolf 
+            - Jr. Product Manager at Topgolf 
             <br />
             - Venue Operations Manager at Topgolf
             <br />
