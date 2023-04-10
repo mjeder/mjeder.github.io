@@ -1,6 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://mjeder.github.io/" target="_blank">mjeder.github.io/</a>
+  <a href="https://mjeder.github.io/" target="_blank">Portfolio Website - v2.0</a>
 </h2>
 
 ## Built With
