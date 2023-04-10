@@ -9,7 +9,7 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Title>{props.title}</Card.Title>
-      <Row>
+      <Row className="project-row">
         <Col md={props.sideBySide ? 6 : 12}> 
           <Card.Body>
             <Card.Text style={{ textAlign: "justify" }}>

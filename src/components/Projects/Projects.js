@@ -22,7 +22,7 @@ function Projects() {
               isPersonalProject={false}
               sideBySide={true}
               title="Bbot"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Bbot is #1 Order & Pay at the Table solution for restaurants. It’s simple. Your guests start with a QR code — in just a few taps, they can easily browse your interactive menu, order when ready, and pay right from their mobile device. Primarily developed frontend components and pages for a Typescript/React consumer site, alongside Python for a Django backend. This project was developed at DoorDash/Bbot so the source code is unavailable to review. The demo link below is to Bbot's staging site so feel free to click around and place an order using Stripe's test card 4242 4242 4242 4242."
               demoLink="https://app.staging.bbot.menu/local2?menu=10c7d77d-2626-45fd-86e9-b53b50bbc760"
             />
           </Col>
@@ -33,7 +33,7 @@ function Projects() {
               isPersonalProject={false}
               sideBySide={true}
               title="Bbot - Group Ordering"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Developed, tested, and shipped a mobile first React feature that allowed users to build an order collaboratively using their own devices. This project was developed at DoorDash/Bbot so the source code is unavailable to review. The demo link below is to Bbot's staging site so feel free to click around and place an order using Stripe's test card 4242 4242 4242 4242."
               demoLink="https://app.staging.bbot.menu/local2?menu=10c7d77d-2626-45fd-86e9-b53b50bbc760"
             />
           </Col>
@@ -43,10 +43,10 @@ function Projects() {
               imgPath={whatsTheWait}
               isPersonalProject={true}
               sideBySide={false}
-              title="What's The Wait?"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="What's The Wait? (2020)"
+              description="My capstone project culminating my twelve weeks spent with General Assembly. What's The Wait? is a waitlist management system built for restaurants. It enables users to create waitlists that can be used to manage a busy Saturday night or keep a reservation list for a holiday that is coming up. Built using React.js and deployed with GH-Pages & Heroku. (Disclaimer: App is still in development 2020)"
+              ghLink="https://github.com/mjeder/whats-the-wait-client"
+              demoLink="https://mjeder.github.io/whats-the-wait-client/"              
             />
           </Col>
         </Row>
