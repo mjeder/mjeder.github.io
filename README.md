@@ -3,8 +3,6 @@
   <a href="https://mjeder.github.io/" target="_blank">mjeder.github.io/</a>
 </h2>
 
-<br/>
-
 ## Built With
 
 This project was built using these technologies.
