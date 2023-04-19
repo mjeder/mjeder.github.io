@@ -1,5 +1,5 @@
 <h2 align="center">
-  <a href="https://mjeder.github.io/" target="_blank">Portfolio Website - v2.0</a>
+  <a href="https://matteder.me" target="_blank">Portfolio Website - v2.0</a>
 </h2>
 
 ## Built With
